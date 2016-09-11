@@ -18,15 +18,15 @@ public class trapDoorSwitch : MonoBehaviour
 
         // if i hit a specific key, open the trap door
         // Input.GetKey ... is how you get keys. 
-        if (Input.GetKey(KeyCode.T))
+        if (Input.GetKey(KeyCode.O))
         {
-            // if key 't' is hit
+            // if key 'o' is hit
             print("open trapdoor");
 
             // rotate to -90 degrees
             // by rotation speed
 
-            transform.Rotate(Vector3.right * rotationSpeed);
+            transform.Rotate(Vector3.up * rotationSpeed);
         }
     }
 }
